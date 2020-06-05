@@ -24,6 +24,9 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
+
+*
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -253,11 +256,19 @@ body {
   margin-bottom: 20px;
 }
 
+.title__up--black h6{
+  margin: 0;
+}
+
 .title__down--black {
   font-weight: 600;
   font-size: 30px;
   color: #333333;
   margin-bottom: 45px;
+}
+
+.title__down--black h6{
+  margin: 0;
 }
 
 .service {
