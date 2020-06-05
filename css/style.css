@@ -109,12 +109,12 @@ body {
       rgba(252, 227, 138, 0.9) 0%,
       rgba(243, 129, 129, 0.9) 100%
     ),
-    -webkit-image-set(url(/img/picture.png) 1x, url(/img/picture@2x.png) 2x);
+    image-set(url(/img/picture.png) 1x, url(/img/picture@2x.png) 2x);
 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-bottom: 40spx;
+  margin-bottom: 40px;
 }
 
 .nav {
